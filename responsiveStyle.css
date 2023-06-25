@@ -1,0 +1,138 @@
+@media (max-width: 500px) {
+  .faded-text {
+    bottom: -8% !important;
+    font-size: 3rem !important;
+  }
+  .skill-fade-text {
+    font-size: 3rem;
+    bottom: -16% !important;
+  }
+}
+
+/* for navbar */
+@media (max-width: 599px) {
+
+  .navbar {
+    display: none;
+  }
+  .nav-items {
+    display: none;
+  }
+  .fimg img{
+    width:200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1279px) {
+  /* Hero Seaction */
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .faded-text {
+    bottom: -9%;
+    font-size: 5rem;
+  }
+  .user-image {
+    width: 70%;
+    padding: 1.5rem;
+    margin: 0 auto;
+  }
+  .user-image img {
+    width: 95%;
+  }
+
+  
+  .icon-dots img {
+    width: 5rem;
+  }
+
+  /* Skill Container */
+  .skills-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .skill-container-left {
+    width: 100%;
+  }
+  .skill-container-right {
+    width: 100%;
+    gap: 1rem;
+  }
+  .skills-logo {
+    width: 70px;
+  }
+  .skill-fade-text {
+    font-size: 7em;
+    bottom: -25%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-faded-text {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 1300px) {
+  /* Project Section */
+  .page-header {
+    padding-top: 30px;
+    color: var(--bgOrange);
+    text-align: center;
+    font-size: 40px;
+  }
+  .project-container {
+    padding: 5px;
+    margin: 10px;
+    gap: 60px;
+  }
+  .project-card {
+    width: 100%;
+    height: 300px;
+  }
+  .project-card {
+    background-size: cover;
+    background-position: center;
+  }
+  .project-content {
+    scale: 0.5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0rem;
+  }
+  .project-content-left {
+    left: 0;
+  }
+  .project-heading {
+    font-size: 40px;
+    width: 100%;
+  }
+  .project-sub-heading {
+    width: 100%;
+  }
+  #project2 {
+    margin-left: 0;
+  }
+  #project4 {
+    margin-left: 0;
+  }
+  .project-skill-container {
+    width: 100%;
+  }
+  .project-skill {
+    width: 35px;
+  }
+  .project-card:hover .project-number {
+    display: none;
+  }
+  .project-card:hover .project-content {
+    scale: 0.55;
+  }
+}
